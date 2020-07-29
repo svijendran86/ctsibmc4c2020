@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.3.1.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com</groupId>
+	<artifactId>crisiscom</artifactId>
+	<packaging>jar</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>crisiscom</name>
+	<description>Crisis Communication project</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		  <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20200518</version>
+    </dependency>
+    
+   <!--  <dependency>
+    <groupId>javax.ws.rs</groupId>
+    <artifactId>jsr311-api</artifactId>
+    <version>1.1.1</version>
+</dependency> -->
+
+<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-core -->
+<dependency>
+    <groupId>com.sun.jersey</groupId>
+    <artifactId>jersey-core</artifactId>
+    <version>1.5</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-bundle -->
+<dependency>
+    <groupId>com.sun.jersey</groupId>
+    <artifactId>jersey-bundle</artifactId>
+    <version>1.5</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.10.0.pr2</version>
+</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.derby/derby -->
+<!-- <dependency>
+    <groupId>org.apache.derby</groupId>
+    <artifactId>derby</artifactId>
+    <scope>runtime</scope>
+</dependency> -->
+
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-jdbc</artifactId>
+</dependency>
+	
+		
+
+		<!-- <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency> -->
+		<!-- Spring boot jpa jar -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<!-- Mysql database jar -->
+<!-- 		 <dependency> -->
+<!-- 			<groupId>mysql</groupId> -->
+<!-- 			<artifactId>mysql-connector-java</artifactId> -->
+<!-- 		</dependency>  -->
+		<dependency>
+  <groupId>com.ibm.db2</groupId>
+  <artifactId>jcc</artifactId>
+
+</dependency>
+			</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<!--  <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.crisiscom.rest.CrisiscomApplication</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin> -->
+		</plugins>
+	</build>
+
+</project>
