@@ -1,0 +1,77 @@
+
+
+
+https://maps.googleapis.com/maps/api/place/textsearch/xml?query=hospital+in+Sydney&key=YOUR_API_KEY
+
+
+
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -33.870775,
+               "lng" : 151.199025
+            }
+         },
+       
+         "id" : "21a0b251c9b8392186142c798263e289fe45b4aa",
+         "name" : "St Vincent's Private Hospital Sydney",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         
+         "types" : [  "hospital", "clinic", "health centre" ],
+         "vicinity" : " 406 Victoria St, Darlinghurst NSW 2010, Australia"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -33.866891,
+               "lng" : 151.200814
+            }
+         },
+        
+         "id" : "45a27fd8d56c56dc62afc9b49e1d850440d5c403",
+         "name" : "Private Charter Sydney Habour Cruise",
+		 "opening_hours" : {
+            "open_now" : true
+         },
+          "types" : [  "hospital", "clinic", "health centre" ],
+         "vicinity" : " Pavilion On George, 580 George St, Sydney NSW 2000, Australia"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -33.870943,
+               "lng" : 151.190311
+            }
+         },
+        
+         "id" : "30bee58f819b6c47bd24151802f25ecf11df8943",
+         "name" : "Mater Hospital",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "types" : [  "hospital", "clinic", "health centre" ],
+         "vicinity" : "25 Rocklands Rd, North Sydney NSW 2060, Australia"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -33.867591,
+               "lng" : 151.201196
+            }
+         },
+        
+         "name" : "The Sydney Private Hospital",
+         "opening_hours" : {
+            "open_now" : true
+         },
+          "types" : [  "hospital", "clinic", "health centre" ],
+         "vicinity" : "63 Victoria St, Ashfield NSW 2131, Australia"
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "616319918107",
+    "firebase_url": "https://headsup-3b4fd.firebaseio.com",
+    "project_id": "headsup-3b4fd",
+    "storage_bucket": "headsup-3b4fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616319918107:android:f091232cdabcae6b96d8be",
+        "android_client_info": {
+          "package_name": "com.headsup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616319918107-31mge4meepn1g7f44djgchi8ut5msb12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl-1XpTpIDGWehHZcs0KBa-AP0UL6qqX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616319918107-31mge4meepn1g7f44djgchi8ut5msb12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
