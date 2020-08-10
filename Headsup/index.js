@@ -2,7 +2,7 @@
 import React from 'react';
 import {AppRegistry, StatusBar} from 'react-native';
 import {DefaultTheme, Provider as PaperProvider} from 'react-native-paper';
-import App from './App';
+import LoginApp from './src/screens/LoginApp';
 import {name as appName} from './app.json';
 
 export default function Main() {
@@ -15,7 +15,7 @@ export default function Main() {
         backgroundColor="#DEF7FF"
         barStyle="dark-content"
       />
-      <App theme="light" />
+      <LoginApp theme="light" />
     </PaperProvider>
   );
 }
